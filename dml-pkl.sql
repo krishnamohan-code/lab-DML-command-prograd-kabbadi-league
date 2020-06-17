@@ -2,13 +2,21 @@
 -- PROGRESSION 1:
 
 --1. Insert into city
-
+   insert into city(id,name)
+   values(101,'ongole');
+   
+   select * from city;
 --2. Insert into referee
-
+     insert into referee(id,name)
+     values(100,'einstein');
+     select * from referee;
 --3. Insert into innings
-
+        insert into innings(id,innings_numner)
+        values(103,90);
+        select * from innings;
 --4. Insert into extra_type
-
+        insert into extra_type(id,name)
+        
 --5. Insert into skill
 
 --6. Insert into team
